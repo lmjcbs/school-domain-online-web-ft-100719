@@ -21,7 +21,7 @@ class School
     sorted_roster = Hash.new
     @roster.sort
     @roster.each do |key, value|
-
+      sorted_roster[key]
     end
   end
 end
