@@ -18,6 +18,7 @@ class School
   end
 
   def sort
+    sorted_roster = Hash.new
     @roster.sort
   end
 end
