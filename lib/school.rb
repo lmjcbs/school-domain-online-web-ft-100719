@@ -20,5 +20,8 @@ class School
   def sort
     sorted_roster = Hash.new
     @roster.sort
+    @roster.each do |key, value|
+
+    end
   end
 end
