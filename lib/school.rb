@@ -19,7 +19,6 @@ class School
 
   def sort
     sorted_roster = Hash.new
-    @roster.sort
     @roster.each do |key, value|
       sorted_roster[key] = value.sort
     end
